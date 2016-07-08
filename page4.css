@@ -1,0 +1,45 @@
+body  {
+  font-family: fantasy;
+  }
+
+.mainMenu {
+  border-bottom: solid black 4px;
+}
+
+.mainMenu ul li {
+  display: inline-block;
+  font-size: 16px;
+  margin:0px 8px 0px 8px;
+}
+
+.mainMenu ul li:hover {
+  font-weight: bold;
+}
+h1  {
+  color: coral;
+}
+
+form  {
+  color: purple;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+input[type=text] {
+  font-size: 20px;
+  border:solid black 3px;
+}
+
+input[type=submit]  {
+  background-color: coral;
+  font-family; fantasy;
+  font-size: 20px;
+}
+input[type=submit]:hover  {
+  border:ridge gray 2px;
+  font-size: 22px;
+}
+
+input[type=radio]:not {
+  color: purple;
+}

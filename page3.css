@@ -1,0 +1,62 @@
+body  {
+  background-color: blue;
+  font-family: fantasy;
+}
+
+h1  {
+  color: white;
+  margin-left: 5%
+}
+
+.students {
+  display:inline-block;
+  float: left;
+  border: solid black 5px;
+  background-color: white;
+  width: 30%;
+  font-size: 20px;
+  margin-left: 10%;
+  height: 20em;
+}
+
+.teachers {
+  display:inline-block;
+  float: right;
+  border: solid black 5px;
+  background-color: white;
+  width: 30%;
+  font-size: 20px;
+  margin-right: 10%;
+  height: 20em;
+}
+
+ul  {
+  list-style: none;
+}
+
+li  {
+  line-height: 2.4;
+}
+
+.button {
+  width: 12%;
+  text-align: center;
+  display: inline-block;
+  clear: both;
+  background-color: white;
+  border: solid black 5px;
+  border-style:outset;
+  margin-left: 43%;
+  margin-right: 44%;
+  margin-top: 3%;
+  padding: 4px 4px 0px 4px;
+}
+.button:hover {
+  border:solid black 6px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
